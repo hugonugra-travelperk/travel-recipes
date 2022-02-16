@@ -17,4 +17,4 @@ class Command(BaseCommand):
                 self.stdout.write('The Database is not available, waiting 1 second')
                 time.sleep(1)
 
-        self.stdout.write(self.style.SUCCESS('Waiting for the database'))
+        self.stdout.write(self.style.SUCCESS('Successfully connected to the database'))
