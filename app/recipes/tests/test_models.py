@@ -2,7 +2,6 @@ from django.test import TestCase
 from recipes import models
 
 
-# Create your tests here.
 class ModelTests(TestCase):
     def test_recipe_str(self):
         """Test the recipe string representation"""
